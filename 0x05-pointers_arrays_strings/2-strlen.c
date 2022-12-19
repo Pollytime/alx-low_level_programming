@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int _string(char *s)
+int _strlen(char *s)
 {
 	int i = 0;
 
