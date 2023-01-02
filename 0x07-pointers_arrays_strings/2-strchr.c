@@ -8,7 +8,7 @@
  * Return: pointer to that character in string
  */
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	int i = 0;
 
