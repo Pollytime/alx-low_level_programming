@@ -22,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 
-			if (accept[j = 1] == '\0' && s[i] != accept[j])
+			if (accept[j + 1] == '\0' && s[i] != accept[j])
 
 				return (matches);/*return if idx doesn't match*/
 		}
@@ -30,6 +30,6 @@ unsigned int _strspn(char *s, char *accept)
 		i++;
 	}
 
-	return (matches); /*return num iff all match till end */
+	return (matches); /* return num iff all match till end */
 
 }
